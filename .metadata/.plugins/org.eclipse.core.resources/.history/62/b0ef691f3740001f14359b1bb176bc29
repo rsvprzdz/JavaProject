@@ -1,0 +1,16 @@
+package com.kh.ch15_thread;
+
+/*
+	스레드 정의 방법 1. Thread 클래스 상속
+*/
+
+public class MyThread1 extends Thread {
+
+	@Override
+	public void run() {
+		// 현재 실행 중인 스레드의 정보 : Thread.currentThread(); 
+		String name = Thread.currentThread().getName();
+	}
+
+	
+}

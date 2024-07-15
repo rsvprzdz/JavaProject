@@ -1,0 +1,28 @@
+package com.kh.ch05_object;
+
+public class Student {
+
+	// 필드부
+	
+	String name;
+	int age;
+	double height;
+	String phone;
+	String address;
+	
+	
+	// 생성자부
+	Student(){ }
+	
+	Student(String name, int age, double height, String phone, String address){
+		this.name = name;
+		this.age = age;
+		this.height = height;
+		this.phone = phone;
+		this.address = address;
+	}
+	
+	public String toString() {
+		return "이름 : "+name+" 나이 : "+age+" 키 : "+height+" 연락처 : "+phone +" 주소 : "+ address;
+	}
+}

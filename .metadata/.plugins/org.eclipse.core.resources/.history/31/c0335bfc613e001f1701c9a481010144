@@ -1,0 +1,6 @@
+package com.kh.practice;
+
+// Thread 정의 방법 1) Thread 클래스 상속
+public class Test1 {
+
+}

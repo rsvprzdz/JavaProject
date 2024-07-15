@@ -1,0 +1,10 @@
+package com.kh.ch03_controllor;
+
+public class ControllRun {
+
+	public static void main(String[] args) {
+	
+		
+	}
+
+}

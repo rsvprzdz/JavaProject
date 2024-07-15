@@ -1,0 +1,22 @@
+package com.kh.practice.tcp;
+
+import java.util.Scanner;
+
+public class TCPClient {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		// 1) 요청할 서버의 "IP주소", "포트번호" 확인
+		String ip = "192.168.10.7";
+		int port = 3000;
+		
+		// 사용되는 통로(소켓, 스트림) 객체 선언 및 null로 초기화
+		Socket socket = null;
+		BufferedReader br = null;
+		PrintWriter pw = null;
+		
+		
+	}
+
+}

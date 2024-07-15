@@ -1,0 +1,49 @@
+package com.kh.ch01_variable;
+
+public class VariableRun {
+
+	public static void main(String[] args) {
+
+		
+		// 2. 정수형 (소수점 x)
+		byte bNum;			// 1byte 크기. -128 ~ 127
+		bNum = -128;
+		
+		short sNum = 1000;	// 2byte 크기.
+		
+		int iNum = 	10000;	// 4byte 크기. 정수형의 기본 자료형
+		
+		long lNum = 100000;	// 8byte 크기.
+		
+		// 3. 실수형 (소수점 o)
+		float fNum = 0.0f;	// 4byte 크기. 소숫점 7자리까지 표현 가능.
+							// double형과 구분하기 위해 값 뒤에 'f'를 붙여줌.
+		
+		double dNum = 0.0;	// 8byte 크기. 소수점15자리까지 표현 가능
+							// 실수형 기본 자료형
+		
+		// 4. 문자형 : 한 글자만 값만 저장할 수 있는 자료형. 작은 따옴표(' ')로 값을 표현.
+		char ch = 'a';		// 2byte 크기.
+		char hong;
+		hong = '홍';
+		// => 컴퓨터에서는 각각의 문자들에 대한 고유한 숫자를 가지고 있음(ascii code / unicode)
+		
+		// 5. 문자열 : 한 글자도 저장할 수 있고, 여러 글자도 저장할 수 있는 자료형. 큰 따옴표("")로 값을 표현.
+		String str;		// 참조 자료형
+		str = "안녕?";
+		
+		// TODO: 저장된 값을 콘솔창에 출력해보자! ("변수명 : 저장된 값" 형식으로 출력)
+		
+		System.out.println("bNum : " + bNum);
+		System.out.println("sNum : " + sNum);
+		System.out.println("iNum : " + iNum);
+		System.out.println("lNum : " + lNum);
+		System.out.println("fNum : " + fNum);
+		System.out.println("dNum : " + dNum);
+		System.out.println("ch : " + ch);
+		System.out.println("str : " + str);
+		
+		
+	}
+
+}
